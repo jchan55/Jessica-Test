@@ -15,8 +15,21 @@
             notice that "src" is a way to direct the path to the file - the obj and mtl file is within the assets folder
 -->
             <a-assets>
-                <a-asset-item id="02282024_Model" src="assets/02282024_Model.obj"></a-asset-item>
-                <a-asset-item id="02282024_Model" src="assets/02282024_Model.mtl"></a-asset-item>
+                <img id="IMG_2934 Small" src="/assets/IMG_2934%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_2935%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_2936%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_2940%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7358%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7359%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7360%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7362%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7366%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7649%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7651%20Small.jpeg">
+                <img id="IMG_2934 Small" src="/assets/IMG_7652%20Small.jpeg">
+                
+                <a-asset-item id="Model" src="/assets/Model.obj"></a-asset-item>
+                <a-asset-item id="Model" src="/assets/Model.mtl"></a-asset-item>
             </a-assets>
 
             
@@ -25,8 +38,34 @@
 note, you don't necessarily need to separate out your assets, you can lump it all in entity below
 however, sometimes, it's easier to organize your code by first thinking about all the assets you need, and then calling them when you need
 -->
-            <a-entity scale=".01 .01 .01"
-                      obj-model="obj: #02282024_Model; mtl: #02282024_Model" rotation="0 0 0"></a-entity>
+            <a-entity scale="5 5 5"
+                      obj-model="obj: #Model; mtl: #Model" rotation="0 0 0"></a-entity>
+            
+            <a-image src="/assets/IMG_2934%20Small.jpeg"
+            position="1.548 .256 .324" scale=".075 .075 .075"> </a-image>
+            <a-image src="/assets/IMG_2935%20Small.jpeg"
+            position=".807 .331 .324" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_2936%20Small.jpeg"
+            position="-.75 .039 .326" scale=".245 .14 .1"></a-image>
+            <a-image src="/assets/IMG_2940%20Small.jpeg"
+            roatation="0 90 0" position=".61 .21 .465" scale=".075 .075 .075" ></a-image>
+            <a-image src="/assets/IMG_7358%20Small.jpeg"
+            position="-.01 .212 .442" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7359%20Small.jpeg"
+            position="1.65 .043 .324" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7360%20Small.jpeg"
+            position="-.42 .222 .324" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7362%20Small.jpeg"
+            position=".235 .2 .16" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7366%20Small.jpeg"
+            position=".908 .041 .326" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7649%20Small.jpeg"
+            position="-.01 .041 .201" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7651%20Small.jpeg"
+            position="-.87 .364 .326" scale=".075 .075 .075"></a-image>
+            <a-image src="/assets/IMG_7652%20Small.jpeg"
+            rotation="0 90 0" position="-.03 .382 .387" scale=".075 .075 .075"></a-image>
+            
             <a-box material='opacity: 0.5;' color="#4CC3D9"></a-box>
 
 
