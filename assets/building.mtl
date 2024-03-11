@@ -1,0 +1,44 @@
+# Rhino
+newmtl Custom (1)
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd IMG_2936.jpeg
+map_Bump IMG_2936.jpeg
+newmtl Plaster (2)
+Ka 0.0000 0.0000 0.0000
+Kd 0.4784 0.2196 0.0980
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+newmtl Custom (2)
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd IMG_2936.jpeg
+map_Bump IMG_2936.jpeg
+newmtl Custom (3)
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd IMG_2936.jpeg
+map_Bump IMG_2936.jpeg
+newmtl street
+Ka 0.0000 0.0000 0.0000
+Kd 0.4118 0.4118 0.4118
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd street.jpeg
+map_Bump street.jpeg
